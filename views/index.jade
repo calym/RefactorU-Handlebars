@@ -1,0 +1,17 @@
+extends layout
+
+block content
+
+	p PseudoSearch!
+
+	input#search(type="text" name="search" )
+
+	div#results Results:	
+		//- ul.resultslist
+
+
+	
+	script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js")
+	script(src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js")
+	script(src="/javascripts/index.js")
+	include templates.html
